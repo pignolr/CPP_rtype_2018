@@ -1,0 +1,11 @@
+[requires]
+boost/1.68.0@conan/stable
+sfml/2.5.1@bincrafters/stable
+
+[generators]
+cmake
+
+[options]
+sfml:shared=True
+sfml:window=True
+sfml:graphics=True
